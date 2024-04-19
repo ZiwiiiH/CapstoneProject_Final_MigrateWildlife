@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cgcptt6nlvaru"
+path="res://.godot/imported/Rock_Moss_5.obj-0232398b0bffdf0c26f5e3aef6639e30.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Rock_Moss_5.obj-0232398b0bffdf0c26f5e3aef6639e30.mesh"]
+
+source_file="res://LowPolyModel/Ultimate Nature Pack by Quaternius/OBJ/Rock_Moss_5.obj"
+dest_files=["res://.godot/imported/Rock_Moss_5.obj-0232398b0bffdf0c26f5e3aef6639e30.mesh", "res://.godot/imported/Rock_Moss_5.obj-0232398b0bffdf0c26f5e3aef6639e30.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

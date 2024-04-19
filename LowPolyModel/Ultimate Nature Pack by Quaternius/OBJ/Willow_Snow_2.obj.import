@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://crh73cfv0wxdg"
+path="res://.godot/imported/Willow_Snow_2.obj-a3cbee537471ba283b7d6aa281e892ba.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Willow_Snow_2.obj-a3cbee537471ba283b7d6aa281e892ba.mesh"]
+
+source_file="res://LowPolyModel/Ultimate Nature Pack by Quaternius/OBJ/Willow_Snow_2.obj"
+dest_files=["res://.godot/imported/Willow_Snow_2.obj-a3cbee537471ba283b7d6aa281e892ba.mesh", "res://.godot/imported/Willow_Snow_2.obj-a3cbee537471ba283b7d6aa281e892ba.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

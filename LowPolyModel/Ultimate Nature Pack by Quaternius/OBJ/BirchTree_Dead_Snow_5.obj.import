@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bb67bu54wv4as"
+path="res://.godot/imported/BirchTree_Dead_Snow_5.obj-2f8b1976172f52f6bfeedfe5954bb7bf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/BirchTree_Dead_Snow_5.obj-2f8b1976172f52f6bfeedfe5954bb7bf.mesh"]
+
+source_file="res://LowPolyModel/Ultimate Nature Pack by Quaternius/OBJ/BirchTree_Dead_Snow_5.obj"
+dest_files=["res://.godot/imported/BirchTree_Dead_Snow_5.obj-2f8b1976172f52f6bfeedfe5954bb7bf.mesh", "res://.godot/imported/BirchTree_Dead_Snow_5.obj-2f8b1976172f52f6bfeedfe5954bb7bf.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

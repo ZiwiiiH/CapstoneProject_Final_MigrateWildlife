@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dt63lyj4biy3b"
+path="res://.godot/imported/Zebra.obj-8480dc68d70f9d00d2a569f21c9da52a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Zebra.obj-8480dc68d70f9d00d2a569f21c9da52a.mesh"]
+
+source_file="res://LowPolyModel/Farm Animals Animated  by Quaternius/OBJ/Zebra.obj"
+dest_files=["res://.godot/imported/Zebra.obj-8480dc68d70f9d00d2a569f21c9da52a.mesh", "res://.godot/imported/Zebra.obj-8480dc68d70f9d00d2a569f21c9da52a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

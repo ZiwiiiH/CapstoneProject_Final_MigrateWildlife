@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c325226pxopgl"
+path="res://.godot/imported/Willow_Autumn_1.obj-32460f1b36d128d03b2e51f1cbcca7ee.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Willow_Autumn_1.obj-32460f1b36d128d03b2e51f1cbcca7ee.mesh"]
+
+source_file="res://LowPolyModel/Ultimate Nature Pack by Quaternius/OBJ/Willow_Autumn_1.obj"
+dest_files=["res://.godot/imported/Willow_Autumn_1.obj-32460f1b36d128d03b2e51f1cbcca7ee.mesh", "res://.godot/imported/Willow_Autumn_1.obj-32460f1b36d128d03b2e51f1cbcca7ee.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

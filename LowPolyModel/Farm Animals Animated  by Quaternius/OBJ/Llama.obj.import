@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dvrqlsa5uihhh"
+path="res://.godot/imported/Llama.obj-5a4749b409b24a3a5c12a8bf33a2de40.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Llama.obj-5a4749b409b24a3a5c12a8bf33a2de40.mesh"]
+
+source_file="res://LowPolyModel/Farm Animals Animated  by Quaternius/OBJ/Llama.obj"
+dest_files=["res://.godot/imported/Llama.obj-5a4749b409b24a3a5c12a8bf33a2de40.mesh", "res://.godot/imported/Llama.obj-5a4749b409b24a3a5c12a8bf33a2de40.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

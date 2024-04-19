@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://f0lx61d1otm1"
+path="res://.godot/imported/CactusFlowers_3.obj-b77b7dfd30b52d8051a43b920931033c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/CactusFlowers_3.obj-b77b7dfd30b52d8051a43b920931033c.mesh"]
+
+source_file="res://LowPolyModel/Ultimate Nature Pack by Quaternius/OBJ/CactusFlowers_3.obj"
+dest_files=["res://.godot/imported/CactusFlowers_3.obj-b77b7dfd30b52d8051a43b920931033c.mesh", "res://.godot/imported/CactusFlowers_3.obj-b77b7dfd30b52d8051a43b920931033c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

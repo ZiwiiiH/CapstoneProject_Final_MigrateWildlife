@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://btu878exnpq8o"
+path="res://.godot/imported/BirchTree_Snow_2.obj-9994e204c859819bc37ecce29b7948ce.mesh"
+
+[deps]
+
+files=["res://.godot/imported/BirchTree_Snow_2.obj-9994e204c859819bc37ecce29b7948ce.mesh"]
+
+source_file="res://LowPolyModel/Ultimate Nature Pack by Quaternius/OBJ/BirchTree_Snow_2.obj"
+dest_files=["res://.godot/imported/BirchTree_Snow_2.obj-9994e204c859819bc37ecce29b7948ce.mesh", "res://.godot/imported/BirchTree_Snow_2.obj-9994e204c859819bc37ecce29b7948ce.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

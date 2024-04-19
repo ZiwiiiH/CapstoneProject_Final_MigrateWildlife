@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cxixkbpbn63rk"
+path="res://.godot/imported/Rock_4.obj-55407a2065f590e258f91e69fc4b023c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Rock_4.obj-55407a2065f590e258f91e69fc4b023c.mesh"]
+
+source_file="res://LowPolyModel/Ultimate Nature Pack by Quaternius/OBJ/Rock_4.obj"
+dest_files=["res://.godot/imported/Rock_4.obj-55407a2065f590e258f91e69fc4b023c.mesh", "res://.godot/imported/Rock_4.obj-55407a2065f590e258f91e69fc4b023c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -3,7 +3,6 @@
 [ext_resource type="Script" path="res://Components/Main.gd" id="1_2fkat"]
 [ext_resource type="Script" path="res://Components/Player.gd" id="2_l1bgc"]
 [ext_resource type="ArrayMesh" uid="uid://ccngxylrt5psv" path="res://LowPolyModel/Farm Animals Animated  by Quaternius/FBX/Cow.obj" id="3_skdnv"]
-[ext_resource type="PackedScene" uid="uid://ce8psipouofit" path="res://Arrow3D.tscn" id="4_fmaj1"]
 [ext_resource type="Script" path="res://addons/zylann.hterrain/hterrain.gd" id="5_p0xqq"]
 [ext_resource type="Resource" path="res://terrain/data.hterrain" id="6_sk6m3"]
 [ext_resource type="Script" path="res://addons/zylann.hterrain/hterrain_texture_set.gd" id="7_jh3vi"]
@@ -35,6 +34,7 @@
 [ext_resource type="PackedScene" uid="uid://bp0pqvovwmmxn" path="res://LowPolyModel/TreeModels/tree_type_7_02.tscn" id="33_l0g5x"]
 [ext_resource type="PackedScene" uid="uid://32ycdpgem4w5" path="res://LowPolyModel/TreeModels/tree_type_7_04.tscn" id="34_iftk1"]
 [ext_resource type="PackedScene" uid="uid://c25fb5npsxxeh" path="res://LowPolyModel/TreeModels/tree_type_0_04.tscn" id="35_cbyb2"]
+[ext_resource type="PackedScene" uid="uid://dlm8vnimd3ey0" path="res://LowPolyModel/Arrows3D/Arrow.tscn" id="36_7x8pt"]
 [ext_resource type="PackedScene" uid="uid://csdllmmk87i7y" path="res://LowPolyModel/TreeModels/tree_type_0_05.tscn" id="36_s8gom"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_hsklc"]
@@ -90,9 +90,6 @@ shadow_enabled = true
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 162.559, 21.4327, 18.9536)
 script = ExtResource("2_l1bgc")
 
-[node name="Camera3D" type="Camera3D" parent="Player"]
-transform = Transform3D(1, 0, 0, 0, 0.999711, -0.0240484, 0, 0.0240484, 0.999711, -0.461395, 7.24923, 0.945518)
-
 [node name="BodyMeshCow" type="MeshInstance3D" parent="Player"]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -0.461395, -0.185923, -0.694626)
 material_override = SubResource("StandardMaterial3D_326ag")
@@ -104,8 +101,11 @@ skeleton = NodePath("../..")
 transform = Transform3D(1, 0, 0, 0, 0.0122519, -0.999925, 0, 0.999925, 0.0122519, -0.461395, 2.72134, -0.362)
 shape = SubResource("CapsuleShape3D_2m353")
 
-[node name="Arrow" parent="." instance=ExtResource("4_fmaj1")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.23483, 150.911, -23.3582)
+[node name="Neck" type="Node3D" parent="Player"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.11639, -1.04356)
+
+[node name="Camera3D" type="Camera3D" parent="Player/Neck"]
+transform = Transform3D(1, 0, 0, 0, 0.999711, -0.0240484, 0, 0.0240484, 0.999711, -0.461395, 9.2813, 13.3548)
 
 [node name="HTerrain" type="Node3D" parent="."]
 script = ExtResource("5_p0xqq")
@@ -804,3 +804,6 @@ transform = Transform3D(-0.979701, 0, -0.200462, 0, 1, 0, 0.200462, 0, -0.979701
 
 [node name="Node3D7" parent="Tree_Type0_04+05" instance=ExtResource("36_s8gom")]
 transform = Transform3D(-0.979701, 0, -0.200462, 0, 1, 0, 0.200462, 0, -0.979701, 25.2648, 13.7381, -123.639)
+
+[node name="Node3D" parent="." instance=ExtResource("36_7x8pt")]
+transform = Transform3D(0.999973, -0.00731286, 0, 0.00731286, 0.999973, 0, 0, 0, 1, 156.04, 25.3205, 32.0683)

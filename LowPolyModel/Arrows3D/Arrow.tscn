@@ -1,12 +1,13 @@
-[gd_scene load_steps=6 format=3 uid="uid://ce8psipouofit"]
+[gd_scene load_steps=6 format=3 uid="uid://dlm8vnimd3ey0"]
 
-[sub_resource type="PrismMesh" id="PrismMesh_vhj83"]
+[sub_resource type="PrismMesh" id="PrismMesh_cbjt6"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gq0d6"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7boqr"]
 albedo_color = Color(1, 0.309804, 0.262745, 1)
 
 [sub_resource type="Animation" id="Animation_uaa32"]
 resource_name = "Arrow3D"
+loop_mode = 1
 tracks/0/type = "rotation_3d"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -72,12 +73,12 @@ _data = {
 "RESET": SubResource("Animation_wn5bu")
 }
 
-[node name="Arrow" type="Node3D"]
+[node name="Node3D" type="Node3D"]
 
 [node name="BodyArrow" type="MeshInstance3D" parent="."]
 transform = Transform3D(-5, 9.50693e-06, 0, -1.26759e-05, -3.75, 0, 0, 0, 1.25, 144.945, -97.9237, 171.903)
-mesh = SubResource("PrismMesh_vhj83")
-surface_material_override/0 = SubResource("StandardMaterial3D_gq0d6")
+mesh = SubResource("PrismMesh_cbjt6")
+surface_material_override/0 = SubResource("StandardMaterial3D_7boqr")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="BodyArrow"]
 libraries = {

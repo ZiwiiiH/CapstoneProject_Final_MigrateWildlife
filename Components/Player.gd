@@ -1,7 +1,7 @@
 extends CharacterBody3D
 
 
-const SPEED = 5.0
+const SPEED = 8.0
 const JUMP_VELOCITY = 4.5
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
@@ -10,7 +10,7 @@ var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
 
 func _input(event):
 	if event is InputEventMouseMotion:
-		print(event.relative)
+		#
 		neck.rotate_y(event.relative.x*-0.001)
 	if event is InputEventMouseButton:
 		Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
@@ -38,3 +38,16 @@ func _physics_process(delta):
 		velocity.z = move_toward(velocity.z, 0, SPEED)
 
 	move_and_slide()
+
+
+func _on_area_3d_body_entered(body):
+	if body.is_in_group("Player"):
+		print("Have a drink!")
+		$Neck/Camera3D/DrinkIcon.show()
+		
+
+
+func _on_area_3d_body_exited(body):
+	if body.is_in_group("Player"):
+		print("Have a drink!")
+		$Neck/Camera3D/DrinkIcon.hide()

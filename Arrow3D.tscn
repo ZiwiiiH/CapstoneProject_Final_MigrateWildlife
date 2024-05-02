@@ -7,6 +7,7 @@ albedo_color = Color(1, 0.309804, 0.262745, 1)
 
 [sub_resource type="Animation" id="Animation_uaa32"]
 resource_name = "Arrow3D"
+loop_mode = 1
 tracks/0/type = "rotation_3d"
 tracks/0/imported = false
 tracks/0/enabled = true

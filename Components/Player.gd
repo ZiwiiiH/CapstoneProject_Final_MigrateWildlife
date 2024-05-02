@@ -3,6 +3,7 @@ extends CharacterBody3D
 
 const SPEED = 20.0
 const JUMP_VELOCITY = 4.5
+var candrink = false
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
@@ -37,19 +38,26 @@ func _physics_process(delta):
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 		velocity.z = move_toward(velocity.z, 0, SPEED)
-		$Sketchfab_Scene/AnimationPlayer.play("Idle")
+		if not candrink:
+			$Sketchfab_Scene/AnimationPlayer.play("Idle")
 
 	move_and_slide()
+	if candrink:
+		if Input.is_action_just_pressed("TAB"):
+			$Sketchfab_Scene/AnimationPlayer.play("Drink")
 
 
 func _on_area_3d_body_entered(body):
 	if body.is_in_group("Player"):
 		print("Have a drink!")
 		$Neck/Camera3D/DrinkIcon.show()
-		
+		candrink = true
+		$Neck/Camera3D/Whole2.hide()
 
 
 func _on_area_3d_body_exited(body):
 	if body.is_in_group("Player"):
 		print("Have a drink!")
 		$Neck/Camera3D/DrinkIcon.hide()
+		candrink = false
+		$Neck/Camera3D/Whole3.show()
